@@ -1,7 +1,8 @@
 # python-challenge-1
 # Instructions for this challenge
  Create an empty list to store customer's order as below
- ```python
+
+    ```python
     [
       {
         "Item name": "string",
@@ -38,7 +39,7 @@ Create an Order Reciept using for loop inside display item name, price and quati
 
 Upon exiting the for loop, use list comprehension and sum() to calculate the total price of the order and display it to the customer. 
 
-```text
+    ```text
       Item name                 | Price  | Quantity
       --------------------------|--------|----------
       Apple                     | $0.49  | 1
