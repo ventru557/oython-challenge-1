@@ -1,18 +1,21 @@
 # python-challenge-1
 # Instructions for this challenge
  Create an empty list to store customer's order as below
- [
-  {
-    "Item name": "string",
-    "Price": float,
-    "Quantity": int
-  },
-  {
-    "Item name": "string",
-    "Price": float,
-    "Quantity": int
-  },
- ]
+ ```python
+    [
+      {
+        "Item name": "string",
+        "Price": float,
+        "Quantity": int
+      },
+      {
+        "Item name": "string",
+        "Price": float,
+        "Quantity": int
+      },
+    ]
+    ```
+
 
 print the submenu and prompt the customer to enter their selection save value in menu_selection variable
 
@@ -33,3 +36,12 @@ if customer entered N / n set place order variable to False; print "Thank you fo
 Create an Order Reciept using for loop inside display item name, price and quatity in table format 
 
 Upon exiting the for loop, use list comprehension and sum() to calculate the total price of the order and display it to the customer. 
+
+```text
+      Item name                 | Price  | Quantity
+      --------------------------|--------|----------
+      Apple                     | $0.49  | 1
+      Tea - Thai iced           | $3.99  | 2
+      Fried banana              | $4.49  | 3
+      ```
+
