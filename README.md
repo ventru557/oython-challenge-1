@@ -17,6 +17,7 @@
     ```
 
 
+
 print the submenu and prompt the customer to enter their selection save value in menu_selection variable
 
 check if the variable is a digit else print error. convert the variable into number and use it to in keys of menu_items
