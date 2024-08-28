@@ -209,6 +209,6 @@ total_cost = sum([item["Price"] * item["Quantity"] for item in order])
 # Print a separator Line
 print("--------------------------|--------|----------")
 # Print the total cost
-total_spaces = 21 # same as name spaces
+total_spaces = 21 # This number is more of trial and error, tried to do similar to namespace but did not work
 total_space_string = " " * total_spaces
 print(f"Total{total_space_string}| ${total_cost:.2f}{price_space_string}")
